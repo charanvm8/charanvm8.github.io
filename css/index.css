@@ -189,6 +189,14 @@ a.text-white-link:active {
 }
 
 .max-img-size {
-  max-height: 317px;
+  max-height: 280px;
   overflow: hidden;
+  display: block;
+}
+
+.img-responsive {
+  min-width: 100%;
+  min-height: 100%;
+  width: 500px;
+  height: 300px;
 }
